@@ -17,7 +17,7 @@ class Copy_Array {
 
         File file = new File("C:\\Users\\abotl\\OneDrive\\Desktop\\alice_in_wonderland.txt");
         try {
-            Scanner sc = new Scanner(file);
+            Scanner sc = new Scanner(file);//passing file to the scanner to read lines from it
             while (sc.hasNextLine()) {
                 arr[count++] = sc.nextLine();
             }
