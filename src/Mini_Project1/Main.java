@@ -1,7 +1,4 @@
-package Mini_Project1;/*reads a word from user and writes bookname,
-line number of line in which this word exists
-,and line itself to the consle
- */
+package Mini_Project1;
 /*reads a word from user and writes bookname,
 line number of line in which this word exists
 ,and line itself to the consle
