@@ -1,3 +1,7 @@
+/*reads a word from user and writes bookname,
+line number of line in which this word exists
+,and line itself to the consle
+ */
 
 import java.io.File;
 import java.io.FileNotFoundException;
