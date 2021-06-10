@@ -1,3 +1,5 @@
+/*copies all lines nof a text file into an array of strings arr*/
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
