@@ -12,7 +12,7 @@ class Copy_Array {
     static String[] arr = new String[100000];
 
 
-    static String[] copy() {
+    static String[] copy_file_array() {
 
 
         File file = new File("C:\\Users\\abotl\\OneDrive\\Desktop\\alice_in_wonderland.txt");
