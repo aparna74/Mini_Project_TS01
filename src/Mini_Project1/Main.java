@@ -6,6 +6,7 @@ line number of line in which this word exists
 package Mini_Project1;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
@@ -34,6 +35,8 @@ public class Main {
         String[] local = new String[50];//local string array to store words in a line temporarily
         String line;
         int found = 0;
+        Date D = new Date();
+        long ms1 = D.getTime();
         /*count gives current size of array, static data member of
         class Copy_Array class*/
         for (int i = 0; i < Copy_Array.count; i++) {
@@ -49,6 +52,8 @@ public class Main {
 
 
         }
+        long ms2 = D.getTime();
+        System.out.printf("\nTime taken for search is %d milli seconds\s",(ms2-ms1));
         if (found == 0) System.out.println("word not found");
 
 
