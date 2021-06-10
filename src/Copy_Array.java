@@ -21,6 +21,7 @@ class Copy_Array {
             while (sc.hasNextLine()) {
                 arr[count++] = sc.nextLine();
             }
+            sc.close();
 
 
         } catch (FileNotFoundException fe) {
