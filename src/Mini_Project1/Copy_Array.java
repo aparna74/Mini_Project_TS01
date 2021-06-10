@@ -1,11 +1,15 @@
-/*copies all lines nof a text file into an array of strings arr*/
+
+
+
+
+package Mini_Project1;/*copies all lines nof a text file into an array of strings arr*/
 
 /*copies all lines nof a text file into an array of strings arr*/
-
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+
+
 
 class Copy_Array {
     static int count = 0;

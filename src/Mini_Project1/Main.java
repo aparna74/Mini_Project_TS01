@@ -1,4 +1,4 @@
-/*reads a word from user and writes bookname,
+package Mini_Project1;/*reads a word from user and writes bookname,
 line number of line in which this word exists
 ,and line itself to the consle
  */
@@ -20,9 +20,10 @@ public class Main {
         while (true) {
 
             System.out.print("TS01:>");
-            if (sc.hasNext() && (k = sc.next()).equals("exit"))
+            if (sc.hasNext() && (k = sc.next()).equals("exit")) {
                 sc.close();
                 System.exit(0);
+            }
             if (k.equals("search") && sc.hasNext())
                 /*calling a method and passing word ,and array of lines to search word occurances
                 output apropriate  lines*/
