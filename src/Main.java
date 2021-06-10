@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);//to read input from user
-        String[] arr = Copy_Array.copy();  //array of lines
+        String[] arr = Copy_Array.copy_file_array();  //array of lines
 
         String k = " ";
         while (true) {
