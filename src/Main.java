@@ -21,6 +21,7 @@ public class Main {
 
             System.out.print("TS01:>");
             if (sc.hasNext() && (k = sc.next()).equals("exit"))
+                sc.close();
                 System.exit(0);
             if (k.equals("search") && sc.hasNext())
                 /*calling a method and passing word ,and array of lines to search word occurances
