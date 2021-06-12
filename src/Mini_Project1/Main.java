@@ -35,8 +35,8 @@ public class Main {
         String[] local = new String[50];//local string array to store words in a line temporarily
         String line;
         int found = 0;
-        Date D = new Date();
-        long ms1 = D.getTime();
+
+        long k = System.currentTimeMillis();
         /*count gives current size of array, static data member of
         class Copy_Array class*/
         for (int i = 0; i < Copy_Array.count; i++) {
@@ -52,8 +52,8 @@ public class Main {
 
 
         }
-        long ms2 = D.getTime();
-        System.out.printf("\nTime taken for search is %d milli seconds\s",(ms2-ms1));
+
+        System.out.printf("\nTime taken for search is %d milli seconds\s",(System.currentTimeMillis()-k));
         if (found == 0) System.out.println("word not found");
 
 
