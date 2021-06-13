@@ -36,7 +36,7 @@ public class Main {
         String line;
         int found = 0;
 
-        long k = System.currentTimeMillis();
+        long k = System.nanoTime();
         /*count gives current size of array, static data member of
         class Copy_Array class*/
         for (int i = 0; i < Copy_Array.count; i++) {
@@ -53,7 +53,7 @@ public class Main {
 
         }
 
-        System.out.printf("\nTime taken for search is %d milli seconds\s",(System.currentTimeMillis()-k));
+        System.out.printf("\nTime taken for search is %d nano seconds\s",(System.nanoTime()-k));
         if (found == 0) System.out.println("word not found");
 
 
